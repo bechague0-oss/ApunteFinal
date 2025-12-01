@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}Inicio - Taller de Programación{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Bienvenido al Taller de Programación</h1>
+    
+    <div class="highlight">
+        <h2>¿Qué encontrarás aquí?</h2>
+        <p>Este sitio recopila todos los conocimientos adquiridos durante el año en el espacio de Taller, donde exploramos diversas tecnologías y herramientas de programación. Desde el desarrollo web hasta la electrónica embebida, aquí encontrarás recursos sobre las principales tecnologías que hemos estudiado.</p>
+    </div>
+
+    <div class="welcome-section">
+        <div class="tech-grid">
+            <div class="tech-card inicio-theme">
+                <h3>🌐 Frontend</h3>
+                <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="tech-card flask-theme">
+                <h3>🐍 Backend</h3>
+                <p>Python con Flask</p>
+            </div>
+            <div class="tech-card arduino-theme">
+                <h3>⚙️ Hardware</h3>
+                <p>Arduino con C++</p>
+            </div>
+            <div class="tech-card git-theme">
+                <h3>📁 Control de Versiones</h3>
+                <p>Git y GitHub</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <h2>Navega por los temas</h2>
+        <p>Utiliza el menú superior para acceder a información detallada sobre cada tecnología. Cada sección contiene características, comandos útiles y conceptos clave para tu aprendizaje.</p>
+    </div>
+</div>
+{% endblock %}

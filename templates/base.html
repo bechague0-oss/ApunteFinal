@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Taller de Programación{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilo.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/">
+                <button>Inicio</button>
+            </a>
+            <a href="/taller">
+                <button>Taller</button>
+            </a>
+            <a href="/flask">
+                <button>Flask</button>
+            </a>
+            <a href="/git">
+                <button>Git</button>
+            </a>
+            <a href="/arduino">
+                <button>Arduino</button>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>

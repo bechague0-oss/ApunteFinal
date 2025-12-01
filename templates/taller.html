@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block title %}Taller - Taller de Programación{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Contenido del Taller</h1>
+    
+    <div class="highlight">
+        <h2>Bienvenido al Espacio de Taller</h2>
+        <p>Este espacio recopila todos los temas y tecnologías que hemos explorado a lo largo del año. Encontrarás información estructurada sobre programación, electrónica y herramientas de desarrollo que te permitirán crear proyectos increíbles.</p>
+    </div>
+
+    <div class="welcome-section">
+        <div class="tech-grid">
+            <div class="tech-card inicio-theme">
+                <h3>Frontend Moderno</h3>
+                <p>HTML5, CSS3, JavaScript ES6+</p>
+            </div>
+            <div class="tech-card flask-theme">
+                <h3>Backend con Python</h3>
+                <p>Flask, rutas, templates</p>
+            </div>
+            <div class="tech-card arduino-theme">
+                <h3>IoT & Electrónica</h3>
+                <p>Arduino, sensores, actuadores</p>
+            </div>
+            <div class="tech-card git-theme">
+                <h3>Colaboración</h3>
+                <p>Git, GitHub, gestión de proyectos</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <h2>Objetivos de Aprendizaje</h2>
+        <ul>
+            <li>Dominar fundamentos de programación</li>
+            <li>Crear aplicaciones web interactivas</li>
+            <li>Implementar control de versiones</li>
+            <li>Programar microcontroladores</li>
+            <li>Desarrollar proyectos completos de software</li>
+        </ul>
+    </div>
+
+    <div class="content-section">
+        <h2>Cómo usar este sitio</h2>
+        <p>Cada sección contiene información detallada sobre una tecnología específica. Navega usando el menú superior, revisa los conceptos clave, y utiliza los ejemplos para reforzar tu aprendizaje. Los comandos y código mostrados te servirán como referencia durante tu trabajo en proyectos.</p>
+    </div>
+</div>
+{% endblock %}

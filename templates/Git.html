@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %}Git & GitHub - Taller de Programación{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Git & GitHub</h1>
+    
+    <div class="highlight">
+        <h2>Control de Versiones</h2>
+        <p>Git es un sistema de control de versiones distribuido que permite gestionar cambios en el código fuente durante el desarrollo de software. GitHub es una plataforma web que aloja repositorios Git y facilita la colaboración entre desarrolladores.</p>
+    </div>
+
+    <div class="content-section">
+        <h2>Comandos Esenciales</h2>
+        <div class="commands">
+            <code>git init</code> - Inicializar repositorio<br>
+            <code>git add .</code> - Agregar cambios<br>
+            <code>git commit -m "mensaje"</code> - Guardar cambios<br>
+            <code>git push</code> - Subir a repositorio remoto<br>
+            <code>git pull</code> - Actualizar desde remoto<br>
+            <code>git clone &lt;url&gt;</code> - Clonar un repositorio<br>
+            <code>git branch</code> - Crear o listar ramas
+        </div>
+    </div>
+
+    <div class="content-section">
+        <h2>Flujo de trabajo con Git</h2>
+        <ul>
+            <li>Clonar o crear un repositorio</li>
+            <li>Crear una rama para tu feature</li>
+            <li>Realizar cambios y commits</li>
+            <li>Hacer push a la rama remota</li>
+            <li>Crear un Pull Request para revisión</li>
+            <li>Merge a la rama principal</li>
+        </ul>
+    </div>
+</div>
+{% endblock %}
